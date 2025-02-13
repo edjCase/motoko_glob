@@ -68,7 +68,7 @@ module Module {
         matchSegments(pathSegments, patternSegments, 0, 0);
     };
 
-    public func parsePathSegments(path : Text) : [Text] {
+    private func parsePathSegments(path : Text) : [Text] {
         path
         |> Text.split(_, #char('/'))
         |> Iter.filter(_, func(x : Text) : Bool { x != "" })
