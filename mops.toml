@@ -1,12 +1,12 @@
 [dependencies]
-base = "0.11.3"
+base = "0.14.1"
 
 [package]
-name = ""
+name = "glob"
 version = "0.0.1"
-description = ""
-repository = "https://github.com/edjcase/"
-keywords = [  ]
+description = "A simple glob pattern matching library"
+repository = "https://github.com/edjcase/motoko_glob"
+keywords = ["glob", "pattern", "matching", "file", "directory", "path"]
 license = "MIT"
 
 [dev-dependencies]
