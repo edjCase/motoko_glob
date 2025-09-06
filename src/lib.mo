@@ -1,8 +1,8 @@
-import Text "mo:core/Text";
-import Char "mo:core/Char";
-import Iter "mo:core/Iter";
-import Array "mo:core/Array";
-import VarArray "mo:core/VarArray";
+import Text "mo:core@1/Text";
+import Char "mo:core@1/Char";
+import Iter "mo:core@1/Iter";
+import Array "mo:core@1/Array";
+import VarArray "mo:core@1/VarArray";
 
 module Module {
 

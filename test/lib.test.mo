@@ -1,5 +1,5 @@
 import { test; suite; expect } "mo:test";
-import Bool "mo:core/Bool";
+import Bool "mo:core@1/Bool";
 import Glob "../src/";
 
 suite(
